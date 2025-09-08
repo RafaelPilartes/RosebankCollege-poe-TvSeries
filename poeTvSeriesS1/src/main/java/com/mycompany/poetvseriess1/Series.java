@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Series {
     static ArrayList<SeriesModel> seriesList = new ArrayList<>();
 
-    // Mostrar o menu
+    // Show the menu
     public static void showMenu() {
         System.out.println("(1) Capture a new series");
         System.out.println("(2) Search for a series");
@@ -17,7 +17,7 @@ public class Series {
         System.out.print("Enter your choice: ");
     }
 
-    // Validar idade (usar em capture/update)
+    // Validate age (use in capture/update)
     public static boolean isValidAge(String ageInput) {
         try {
             int age = Integer.parseInt(ageInput);
@@ -27,7 +27,7 @@ public class Series {
         }
     }
 
-    // Capturar nova série
+    // Capture new series
     public void captureSeries(Scanner scanner) {
         SeriesModel series = new SeriesModel();
 
@@ -96,7 +96,7 @@ public class Series {
         return false;
     }
 
-    // Relatório
+    // Report
     public void printReport() {
         System.out.println("\nSeries Report – 2025");
         System.out.println("==========================");
