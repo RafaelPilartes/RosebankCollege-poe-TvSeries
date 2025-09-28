@@ -8,7 +8,7 @@ public class PoeTvSeriesS1 {
         Scanner scanner = new Scanner(System.in);
         Series seriesController = new Series();
 
-        // Tela inicial
+        // Main
         System.out.println("\nLATEST SERIES – 2025");
         System.out.println("*************************");
         System.out.print("Enter (1) to launch or any other key to exit: ");
